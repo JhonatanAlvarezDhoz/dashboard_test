@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.content_n_p {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3rem;
+  width: 90px;
+  height: 41px;
+}
+.arrow_down {
+  width: 10px;
+  margin-left: 5px;
+}

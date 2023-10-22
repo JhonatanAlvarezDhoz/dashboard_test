@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  padding: 10px;
+  width: 100vw;
+  height: 95vh;
+}
+
+.page_content {
+  display: flex;
+  height: 94vh;
+  width: 90%;
+}
+.main_column_1 {
+  width: 70%;
+  height: 93vh;
+  margin-left: 3.5rem;
+}
+.main_column_2 {
+  height: 95vh;
+  padding-top: 3.2rem;
+  padding-left: 1rem;
+  margin-left: 3.5rem;
+}

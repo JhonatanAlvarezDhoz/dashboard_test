@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  width: 100%;
+}
+.arrows_content {
+  display: flex;
+  align-items: center;
+  width: 180px;
+}
+
+.arrow {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+  width: 100%;
+}

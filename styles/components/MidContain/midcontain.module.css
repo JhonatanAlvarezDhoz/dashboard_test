@@ -1,0 +1,41 @@
+.mid_contain {
+  position: relative;
+  height: 97vh;
+  width: 850px;
+}
+
+.progres_course {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.courses_content {
+  height: 50px;
+  width: 100%;
+}
+.text_course {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.option_list_courses {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  height: 20px;
+  width: 75%;
+}
+.list_courses {
+  position: relative;
+  max-height: 396px;
+  width: 100%;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
