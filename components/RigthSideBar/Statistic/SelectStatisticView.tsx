@@ -1,6 +1,5 @@
 import { statistics } from "@/utils/constant";
 import { useChangeStatisticView } from "@/stores/RigthSideBar/Statistic";
-import CurrentView from "./CurrentView";
 import style from "@/styles///components/RigthSideBar/Statistic/statistic.module.css";
 
 export default function SelectStatisticView() {
