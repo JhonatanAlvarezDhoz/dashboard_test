@@ -63,6 +63,7 @@
     width: 100%;
     padding: 0px;
     flex-direction: column;
+    flex-flow: wrap;
     width: 80%;
     padding: 0px;
   }
