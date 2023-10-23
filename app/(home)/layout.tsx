@@ -10,14 +10,12 @@ export default function HomeLayout({ children }: Props) {
   return (
     <section>
       <section className={styles.menu}>
-        <Menu children={children} />
+        <Menu>{children}</Menu>
       </section>
       <section className={styles.sidebar}>
-        <LeftSideBar
-          children={
-            <section className={styles.page_content}>{children}</section>
-          }
-        />
+        <LeftSideBar>
+          {<section className={styles.page_content}>{children}</section>}
+        </LeftSideBar>
       </section>
     </section>
   );

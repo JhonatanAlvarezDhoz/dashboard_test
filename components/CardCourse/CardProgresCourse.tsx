@@ -14,8 +14,9 @@ export default function CardProgresCourse() {
         icon={spain}
         alt="IconSpain"
         text_buttom={"Continue"}
-        children={<CircularProgresIndicatior />}
-      />
+      >
+        {<CircularProgresIndicatior />}
+      </BaseCardCourse>
       <section className={style.arrows_content}>
         <Arrows />
       </section>

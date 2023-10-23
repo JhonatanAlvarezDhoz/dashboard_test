@@ -19,13 +19,15 @@ export default function CurrentCourse() {
       <section className={style.list_courses}>
         {courses.map((item) => (
           <BaseCardCourse
+            key={item.title}
             icon={item.icon}
             title={item.title}
             subtitle={item.subtitle}
-            children={<Contain time={item.duration} rated={item.rated} />}
             text_buttom={item.text_buttom}
             alt=""
-          />
+          >
+            {<Contain time={item.duration} rated={item.rated} />}{" "}
+          </BaseCardCourse>
         ))}
       </section>
     );
