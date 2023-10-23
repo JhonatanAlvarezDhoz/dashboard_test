@@ -21,6 +21,7 @@ import search from "@/assets/icons/search.svg";
 import picture_profile from "@/assets/icons/picture_profile.svg";
 import arrow_down from "@/assets/icons/arrow_down.svg";
 import profile from "@/assets/icons/profile.svg";
+import menu from "@/assets/icons/menu.svg";
 
 export {
   instagram,
@@ -46,4 +47,5 @@ export {
   picture_profile,
   arrow_down,
   profile,
+  menu,
 };

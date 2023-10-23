@@ -19,6 +19,7 @@
   font-size: 4rem;
   font-weight: 800;
   margin-right: 10px;
+  color: var(--color-text);
 }
 
 .column_text {
@@ -30,4 +31,32 @@
   font-size: 1rem;
   line-height: 25px;
   font-weight: 600;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 1376px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-right: 3.5rem;
+  }
+  .card {
+    height: 160px;
+    width: 280px;
+    margin: 1rem 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    justify-content: space-between;
+    margin-right: 0rem;
+    margin-left: -1rem;
+  }
+  .card {
+    height: 100%;
+    width: 70%;
+    margin: 2.5rem 0px;
+  }
 }

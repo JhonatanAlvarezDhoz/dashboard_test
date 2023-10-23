@@ -9,8 +9,8 @@ export default function Header() {
     <section className={style.content}>
       <Search />
       <section className={style.content_n_p}>
-        <Image src={bell_notification} alt="" />
-        <Image src={picture_profile} alt="" />
+        <Image className={style.bell} src={bell_notification} alt="" />
+        <Image className={style.image} src={picture_profile} alt="" />
       </section>
       <Image className={style.arrow_down} src={arrow_down} alt="" />
     </section>

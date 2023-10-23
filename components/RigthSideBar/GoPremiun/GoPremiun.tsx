@@ -16,7 +16,7 @@ export default function GoPremiun() {
         </div>
       </section>
       <section className={styles.box_image}>
-        <Image src={brain} alt="Brain Image" />
+        <Image className={styles.image} src={brain} alt="Brain Image" />
       </section>
     </section>
   );

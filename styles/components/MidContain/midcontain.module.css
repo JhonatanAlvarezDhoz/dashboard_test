@@ -39,3 +39,24 @@
   font-weight: 600;
   color: var(--primary-color);
 }
+
+.header_rigth {
+  display: none;
+}
+
+@media screen and (max-width: 1376px) {
+  .header_rigth {
+    display: flex;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .list_courses {
+    position: relative;
+    max-height: 396px;
+    width: 93%;
+    overflow: auto;
+    overflow-y: hidden;
+  }
+}

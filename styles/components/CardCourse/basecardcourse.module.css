@@ -45,3 +45,20 @@
 .buttom {
   margin-right: -3.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .content_incon_course {
+    margin-left: -1.3rem;
+  }
+  .content_text {
+    margin-left: -1rem;
+  }
+
+  .center_elements {
+    margin-left: 1rem;
+    max-width: 60%;
+  }
+  .buttom {
+    margin-right: -1.5rem;
+  }
+}

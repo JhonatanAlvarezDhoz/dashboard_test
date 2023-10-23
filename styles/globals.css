@@ -4,11 +4,17 @@
   --text-color: #000000;
   --background-color: #ffffff;
   --background-color-icon: #ffffff;
+  --text-color-whithe: #ffffff;
 }
 
 body {
   width: 100vw;
-  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  width: 100vw;
   padding: 0px;
   margin: 0px;
 }

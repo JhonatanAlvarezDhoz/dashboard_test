@@ -2,14 +2,18 @@
   margin-top: 10px;
   width: 100vh;
   height: 852px;
+  padding: 0px;
 }
 
 .side_bar {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-top: 1rem;
+  margin-left: 1rem;
   width: 132px;
   height: 852px;
+  padding-left: 20px;
   border: solid 1px var(--primary-color);
   border-color: black;
   background-color: var(--primary-color);
@@ -20,8 +24,9 @@
 .logo_section {
   margin: auto;
   display: flex;
-  position: inherit;
-  top: -40px;
+  position: relative;
+  top: -8rem;
+
   width: 60px;
   height: 60px;
 }
@@ -39,10 +44,9 @@
 .icons_section {
   display: flex;
   position: relative;
-  top: -120px;
+  top: -12rem;
   flex-direction: column;
   align-items: center;
-  margin: auto;
   width: 47px;
   height: 400px;
 }
@@ -64,4 +68,26 @@
   bottom: 50px;
   width: 60px;
   height: 30px;
+}
+
+@media screen and (max-width: 1376px) {
+  .side_bar {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: fixed;
+  }
+
+  .icons_section {
+    display: flex;
+    position: relative;
+    margin-left: 1.2rem;
+  }
+
+  .logout_section {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    width: 60px;
+    height: 30px;
+  }
 }

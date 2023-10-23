@@ -15,3 +15,8 @@
   margin-right: 8px;
   margin-bottom: 2px;
 }
+@media screen and (max-width: 1000px) {
+  .content {
+    width: 11rem;
+  }
+}

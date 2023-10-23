@@ -7,6 +7,11 @@ import {
   instagram,
   pencil,
   photo_shop,
+  home,
+  profile,
+  learning,
+  settings,
+  message,
 } from "@/utils/icons";
 
 enum StatisticView {
@@ -48,6 +53,34 @@ const tagCourses = [
   {
     type: ShowCourses.mostpopular,
     label: "Most Popular",
+  },
+];
+
+const routes = [
+  {
+    icon: home,
+    route: "/home",
+    alt: " Home",
+  },
+  {
+    icon: learning,
+    route: "/Courses",
+    alt: " Learning",
+  },
+  {
+    icon: profile,
+    route: "/Profile",
+    alt: " Profile",
+  },
+  {
+    icon: message,
+    route: "/Messages",
+    alt: " Message",
+  },
+  {
+    icon: settings,
+    route: "/Settings",
+    alt: " Settings",
   },
 ];
 
@@ -177,4 +210,5 @@ export {
   listTopRated,
   listNewest,
   listPopular,
+  routes,
 };
