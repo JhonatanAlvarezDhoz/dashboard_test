@@ -17,16 +17,16 @@ export default function CurrentCourse() {
   if (currentShowCourse === ShowCourses.allcourse) {
     return (
       <section className={style.list_courses}>
-        {courses.map((item) => (
+        {courses.map((item, index) => (
           <BaseCardCourse
-            key={item.title}
+            key={index}
             icon={item.icon}
             title={item.title}
             subtitle={item.subtitle}
             text_buttom={item.text_buttom}
             alt=""
           >
-            {<Contain time={item.duration} rated={item.rated} />}{" "}
+            {<Contain time={item.duration} rated={item.rated}></Contain>}{" "}
           </BaseCardCourse>
         ))}
       </section>
@@ -36,15 +36,17 @@ export default function CurrentCourse() {
   if (currentShowCourse === ShowCourses.thenewest) {
     return (
       <section className={style.list_courses}>
-        {listNewest.map((item) => (
+        {listNewest.map((item, index) => (
           <BaseCardCourse
+            key={index}
             icon={item.icon}
             title={item.title}
             subtitle={item.subtitle}
-            children={<Contain time={item.duration} rated={item.rated} />}
             text_buttom={item.text_buttom}
             alt=""
-          />
+          >
+            {<Contain time={item.duration} rated={item.rated}></Contain>}
+          </BaseCardCourse>
         ))}
       </section>
     );
@@ -53,15 +55,17 @@ export default function CurrentCourse() {
   if (currentShowCourse === ShowCourses.toprated) {
     return (
       <section className={style.list_courses}>
-        {listTopRated.map((item) => (
+        {listTopRated.map((item, index) => (
           <BaseCardCourse
+            key={index}
             icon={item.icon}
             title={item.title}
             subtitle={item.subtitle}
-            children={<Contain time={item.duration} rated={item.rated} />}
             text_buttom={item.text_buttom}
             alt=""
-          />
+          >
+            {<Contain time={item.duration} rated={item.rated}></Contain>}
+          </BaseCardCourse>
         ))}
       </section>
     );
@@ -70,15 +74,17 @@ export default function CurrentCourse() {
   if (currentShowCourse === ShowCourses.mostpopular) {
     return (
       <section className={style.list_courses}>
-        {listPopular.map((item) => (
+        {listPopular.map((item, index) => (
           <BaseCardCourse
+            key={index}
             icon={item.icon}
             title={item.title}
             subtitle={item.subtitle}
-            children={<Contain time={item.duration} rated={item.rated} />}
             text_buttom={item.text_buttom}
             alt=""
-          />
+          >
+            {<Contain time={item.duration} rated={item.rated}></Contain>}
+          </BaseCardCourse>
         ))}
       </section>
     );
